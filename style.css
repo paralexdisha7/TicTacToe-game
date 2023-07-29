@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: #FFEDD8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab {
+  background-color: #583101;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px rgb(0, 0, 0);
+  padding: 10px;
+}
+.tab h2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  background-color: #A47148;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.info-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.info-div div {
+  color: aliceblue;
+  font-size: 20px;
+  background-color: #A47148;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.info-div button {
+  padding: 5px 15px;
+  background-color: #A47148;
+  font-size: 16px;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+}
+.buttons {
+    /* position: relative; */
+  /* padding-top: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 15px;
+}
+.buttons button {
+  flex: 0 0 25%;
+  width: 60px;
+  height: 60px;
+  margin: 5px 1px;
+  border: 1px solid black;
+  font-size: 25px;
+  font-weight: 200;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  transition: ease 0.2sec;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+.score-board {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.score-board div {
+  /* background-color: aqua; */
+  /*  */
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+}
+.restart button {
+  width: 50%;
+  height: 40px;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #A47148;
+  color: aliceblue;
+  font-size: 20px;
+}
+.restart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.win-text h4{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight:100;
+    
+    /* background-color: #A47148; */
+}
